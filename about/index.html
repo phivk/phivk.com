@@ -87,6 +87,40 @@
             src="/img/philo_van_kemenade-nff-extended-moonshot-meeting.jpg"
             alt="Philo van Kemenade speaking at NFF Extended Moonshot Meeting"
           />
+          
+          <!-- DIAGNOSTIC TEST IMAGES -->
+          <h3 style="margin-top: 2rem; color: red;">🔍 DIAGNOSTIC TESTS:</h3>
+          
+          <div style="border: 2px solid red; padding: 1rem; margin: 1rem 0;">
+            <h4>Test 1: Absolute path to /img/ (root level)</h4>
+            <img src="/img/philo-van-kemenade-cf.jpg" alt="Test 1" style="max-width: 200px;" />
+            <p>Path: /img/philo-van-kemenade-cf.jpg</p>
+          </div>
+          
+          <div style="border: 2px solid blue; padding: 1rem; margin: 1rem 0;">
+            <h4>Test 2: Absolute path to /public/img/</h4>
+            <img src="/public/img/philo-van-kemenade-cf.jpg" alt="Test 2" style="max-width: 200px;" />
+            <p>Path: /public/img/philo-van-kemenade-cf.jpg</p>
+          </div>
+          
+          <div style="border: 2px solid green; padding: 1rem; margin: 1rem 0;">
+            <h4>Test 3: Relative path to ../img/</h4>
+            <img src="../img/philo-van-kemenade-cf.jpg" alt="Test 3" style="max-width: 200px;" />
+            <p>Path: ../img/philo-van-kemenade-cf.jpg</p>
+          </div>
+          
+          <div style="border: 2px solid orange; padding: 1rem; margin: 1rem 0;">
+            <h4>Test 4: Relative path to ./img/</h4>
+            <img src="./img/philo-van-kemenade-cf.jpg" alt="Test 4" style="max-width: 200px;" />
+            <p>Path: ./img/philo-van-kemenade-cf.jpg</p>
+          </div>
+          
+          <div style="border: 2px solid purple; padding: 1rem; margin: 1rem 0;">
+            <h4>Test 5: Relative path to ../public/img/</h4>
+            <img src="../public/img/philo-van-kemenade-cf.jpg" alt="Test 5" style="max-width: 200px;" />
+            <p>Path: ../public/img/philo-van-kemenade-cf.jpg</p>
+          </div>
+          
         </div>
       </main>
       <footer class="pt5 f7">
